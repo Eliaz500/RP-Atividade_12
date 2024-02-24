@@ -25,3 +25,6 @@ plt.title('Imagem Original')
 plt.subplot(1, 2, 2)
 plt.imshow(imagem_filtro, cmap='gray')
 plt.title('Imagem Com Filtro')
+
+plt.show()
+cv2.waitKey(0)
